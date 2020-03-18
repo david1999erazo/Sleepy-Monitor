@@ -39,7 +39,7 @@ public class Student extends Thread {
 			try {
 				
 				/**
-				 * This line sleeps the thread between xxx to xxx seconds.
+				 * This line sleeps the thread between 20 to 26 seconds.
 				 */
 				sleep((random.nextInt(12)+26)*1000);
 				System.out.println("A student will try to ask for help from the monitor");

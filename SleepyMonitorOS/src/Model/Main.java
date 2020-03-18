@@ -1,7 +1,7 @@
 package Model;
 /**
  * @author David Erazo, Nicolas Biojo
- * Cod: A00130528,
+ * Cod: A00130528, A00137580
  */
 
 
