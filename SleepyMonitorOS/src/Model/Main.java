@@ -24,26 +24,19 @@ public class Main {
 		 */
 		Semaphore semaphoreMonitor = new Semaphore(1, true);
 		/**
-		 * semaphoreWaitingRoom: Semaphore used to simulate the wainting room; has 3 permission since 
+		 * semaphoreWaitingRoom: Semaphore used to simulate the waiting room; has 3 permission since 
 		 * it has 3 chairs.
 		 */
 		Semaphore semaphoreWaitingRoom = new Semaphore(3,true);
 		/**
-		 * numStudents: Number of students
+		 * numStudents: Number of students,for simulation this number can change to another one
 		 */
-		int numStudents = 0;
+		int numStudents = 5;
 		
 		/**
 		 * random: Random used for waiting times
 		 */
 		Random random = new Random(257L);
-		
-		System.out.println("Enter the number of students: ");
-		try {
-			numStudents = Integer.parseInt(br.readLine());
-		} catch (NumberFormatException | IOException e) {
-			System.out.println("Wrong value");
-		}
 		
 		/**
 		 * students: Represents the ArrayList that stores the students 
