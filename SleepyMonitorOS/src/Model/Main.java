@@ -36,7 +36,7 @@ public class Main {
 		/**
 		 * random: Random used for waiting times
 		 */
-		Random random = new Random(257L);
+		Random random = new Random(200L);
 		
 		/**
 		 * students: Represents the ArrayList that stores the students 
